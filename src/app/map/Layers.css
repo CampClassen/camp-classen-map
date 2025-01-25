@@ -1,0 +1,13 @@
+.tooltip {
+    font-family: CachetPro-Bold, CachetPro-Book, Verdana, Arial, sans-serif;
+    background: #1FBDC0;
+    color: white;
+    font-size: 14px;
+    border: 2px solid white;
+}
+.leaflet-tooltip-left.tooltip::before {
+    border-left-color: white;
+}
+.leaflet-tooltip-right.tooltip::before {
+    border-right-color: white;
+}

@@ -1,0 +1,44 @@
+.modal {
+    background: white;
+    width: 80%;
+    max-width: 800px;
+    min-width: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: 90vh;
+    overflow-x: hidden;
+    z-index: 1100;
+    scrollbar-color: rgba(145, 145, 145, 0.6) rgba(255, 255, 255, 0);
+    scrollbar-width: thin;
+}
+
+.modal-header {
+    position: relative;
+    padding: 5px;
+    background: #1FBDC0;
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    display: inline-block;
+    user-select: text;
+}
+
+.modal-close {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 12px;
+    margin-bottom: -8px;
+    cursor: pointer;
+    color: white;
+    font-size: 64px;
+    user-select: none;
+}
+
+.modal-description {
+    padding: 10px;
+    font-size: medium;
+    user-select: text;
+}
