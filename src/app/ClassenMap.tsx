@@ -11,7 +11,7 @@ export default function ClassenMap(): ReactElement {
         <Map>
             <StructureLayer
                 name={"Activity Center"}
-                image="/structures/activity-center.svg"
+                image="structures/activity-center.svg"
                 bounds={[
                     [1999.054484820935, 1456.733117600812],
                     [2170.590513221411, 1671.8129070567936],
@@ -22,7 +22,7 @@ export default function ClassenMap(): ReactElement {
             </StructureLayer>
             <StructureLayer
                 name={"Dining Hall"}
-                image="/structures/dining-hall.svg"
+                image="structures/dining-hall.svg"
                 bounds={[
                     [1873.4256762068521, 1211.0573180328752],
                     [1979.52583586258, 1347.471809018811],
@@ -33,7 +33,7 @@ export default function ClassenMap(): ReactElement {
             </StructureLayer>
             <StructureLayer
                 name={"Woodshed"}
-                image="/structures/woodshed.svg"
+                image="structures/woodshed.svg"
                 bounds={[
                     [953.419634647539, 2152.6613799628058],
                     [1006.2597589774027, 2249.152041782557],
@@ -41,7 +41,7 @@ export default function ClassenMap(): ReactElement {
             />
             <StructureLayer
                 name={"House 1"}
-                image="/structures/house-1.svg"
+                image="structures/house-1.svg"
                 bounds={[
                     [906.3985067732181, 1988.6201352616424],
                     [1017.0458161284772, 2071.984546419714],
@@ -49,7 +49,7 @@ export default function ClassenMap(): ReactElement {
             />
             <StructureLayer
                 name={"Waterfront"}
-                image="/structures/waterfront.svg"
+                image="structures/waterfront.svg"
                 bounds={[
                     [1791.5930592634236, 1803.7820227281773],
                     [1899.541329112143, 1930.8824049694115],
@@ -60,7 +60,7 @@ export default function ClassenMap(): ReactElement {
             </StructureLayer>
             <StructureLayer
                 name={"Swim Dock"}
-                image="/structures/swim-dock.svg"
+                image="structures/swim-dock.svg"
                 bounds={[
                     [1661.8032813870188, 1876.6623936839155],
                     [1816.9167695442934, 2056.4830423622016],
@@ -68,7 +68,7 @@ export default function ClassenMap(): ReactElement {
             />
             <StructureLayer
                 name={"Lake Tower"}
-                image="/structures/lake-tower.svg"
+                image="structures/lake-tower.svg"
                 bounds={[
                     [1591.3012002313224, 1996.3404278274206],
                     [1703.1656819001741, 2066.6142688758023],
@@ -79,7 +79,7 @@ export default function ClassenMap(): ReactElement {
             </StructureLayer>
             <StructureLayer
                 name={"Archery"}
-                image="/structures/archery.svg"
+                image="structures/archery.svg"
                 bounds={[
                     [1251.981883937589, 1309.5786762471182],
                     [1336.8620116621712, 1374.7544886070655],
@@ -90,7 +90,7 @@ export default function ClassenMap(): ReactElement {
             </StructureLayer>
             <StructureLayer
                 name={"Rifle Range"}
-                image="/structures/rifle-range.svg"
+                image="structures/rifle-range.svg"
                 bounds={[
                     [1157.0763258366428, 2447.953448365695],
                     [1268.070180579994, 2547.8479176347114],
@@ -101,7 +101,7 @@ export default function ClassenMap(): ReactElement {
             </StructureLayer>
             <StructureLayer
                 name={"Vehicle Shed"}
-                image="/structures/vehicle_shed.svg"
+                image="structures/vehicle_shed.svg"
                 bounds={[
                     [1456.5495141362403, 1718.4525734009737],
                     [1503.646146691119, 1798.8614582507662],
@@ -109,7 +109,7 @@ export default function ClassenMap(): ReactElement {
             />
             <StructureLayer
                 name={"House 2"}
-                image="/structures/house-2.svg"
+                image="structures/house-2.svg"
                 bounds={[
                     [1307.6323395759382, 1719.318998047211],
                     [1419.7905119916343, 1781.3358698535371],
@@ -117,7 +117,7 @@ export default function ClassenMap(): ReactElement {
             />
             <StructureLayer
                 name={"Main Lodge"}
-                image="/structures/lodge.svg"
+                image="structures/lodge.svg"
                 bounds={[
                     [1495.0024629056893, 1811.6841711810541],
                     [1640.1483330907076, 1873.7010429873803],
@@ -131,7 +131,7 @@ export default function ClassenMap(): ReactElement {
             </StructureLayer>
             <StructureLayer
                 name={"Infirmary"}
-                image="/structures/infirmary.svg"
+                image="structures/infirmary.svg"
                 bounds={[
                     [1939.002823234995, 1432.427180030484],
                     [1974.6124722399031, 1489.8620977803357],
@@ -142,7 +142,7 @@ export default function ClassenMap(): ReactElement {
             </StructureLayer>
             <StructureLayer
                 name={"Flag"}
-                image="/structures/flag.svg"
+                image="structures/flag.svg"
                 bounds={[
                     [1857.4452400302057, 1317.553534015197],
                     [2019.4117080847875, 1374.9884517650487],
@@ -150,7 +150,7 @@ export default function ClassenMap(): ReactElement {
             />
             <StructureLayer
                 name={"Flag"}
-                image="/structures/flag.svg"
+                image="structures/flag.svg"
                 bounds={[
                     [1857.4452400302057, 1317.553534015197],
                     [2019.4117080847875, 1374.9884517650487],
@@ -158,7 +158,7 @@ export default function ClassenMap(): ReactElement {
             />
             <StructureLayer
                 name={"Chapel"}
-                image="/structures/chapel.svg"
+                image="structures/chapel.svg"
                 bounds={[
                     [2127.389353454509, 2098.669906484496],
                     [2265.233156054153, 2242.2572008591255],
@@ -169,7 +169,7 @@ export default function ClassenMap(): ReactElement {
             </StructureLayer>
             <StructureLayer
                 name={"Nature Center"}
-                image="/structures/nature-center.svg"
+                image="structures/nature-center.svg"
                 bounds={[
                     [1397.490674322587, 748.7622349846732],
                     [1585.4395285698765, 924.5853566998794],
@@ -180,7 +180,7 @@ export default function ClassenMap(): ReactElement {
             </StructureLayer>
             <StructureLayer
                 name={"Shower House"}
-                image="/structures/showerhouse.svg"
+                image="structures/showerhouse.svg"
                 bounds={[
                     [1844.6720592605063, 993.5886955714706],
                     [1929.1205655499716, 1111.0248996302582],
@@ -191,7 +191,7 @@ export default function ClassenMap(): ReactElement {
             </StructureLayer>
             <StructureLayer
                 name={"Fishing Dock"}
-                image="/structures/fishing-dock.svg"
+                image="structures/fishing-dock.svg"
                 bounds={[
                     [1384.1637984007662, 1905.3690425358],
                     [1510.836557834964, 2045.2368810777268],
