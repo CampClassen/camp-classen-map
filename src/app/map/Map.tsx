@@ -17,7 +17,7 @@ export default function Map({children}: {children: ReactNode}): ReactNode {
         <>
             <MapContainer style={mapStyle} crs={CRS.Simple} renderer={svg()} zoomSnap={0.20} minZoom={-2} maxZoom={2.6}
                           zoom={-1.8} center={[1536, 2048]} attributionControl={false}>
-                <ImageOverlay url={"background.png"} bounds={[[0, 0], [3072, 4096]]}></ImageOverlay>
+                <ImageOverlay url={"camp-classen-map/background.png"} bounds={[[0, 0], [3072, 4096]]}></ImageOverlay>
                 {children}
             </MapContainer>
             <div className="overlay-map-portal"/>
