@@ -1,20 +1,16 @@
 'use client'
+import React, {StrictMode} from "react";
 
-import "./globals.css";
-import "./modal/Modal.css";
-import React from "react";
-import ClassenMap from "@/app/ClassenMap";
-
-export default function RootLayout() {
-
-
-
-
+export default function RootLayout({children,}: { children: React.ReactNode }) {
     return (
-    <html lang="en">
-      <body>
-          <ClassenMap/>
-      </body>
-    </html>
-  );
+        <html lang="en">
+        <body>
+        {/* Layout UI */}
+        {/* Place children where you want to render a page or nested layout */}
+        <StrictMode>
+            <main>{children}</main>
+        </StrictMode>
+        </body>
+        </html>
+    )
 }

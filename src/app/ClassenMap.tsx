@@ -1,3 +1,5 @@
+'use client'
+
 import React, {ReactElement} from "react";
 import Map from "@/app/map/Map";
 import {StructureLayer} from "@/app/map/StructureLayer";

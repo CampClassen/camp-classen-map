@@ -1,9 +1,9 @@
-import L, {CircleOptions, LatLngBoundsExpression, LatLngExpression} from "leaflet";
-import React, {ReactElement, ReactNode, useEffect, useRef, useState} from "react";
-import {Circle, ImageOverlay, Tooltip} from "react-leaflet";
+'use client'
+import {CircleOptions, LatLngExpression} from "leaflet";
+import React, {ReactElement, ReactNode, useState} from "react";
+import {Circle, Tooltip} from "react-leaflet";
 import "./Layers.css"
 import Modal from "@/app/modal/Modal";
-
 
 export function CircleLayer({children, name, center, modalDescription = undefined, options}:
     {children?: ReactNode, name: string, center: LatLngExpression, modalDescription?: ReactElement | undefined, options?: CircleOptions}) {

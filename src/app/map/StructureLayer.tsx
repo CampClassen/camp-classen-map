@@ -1,9 +1,9 @@
+'use client'
 import {LatLngBoundsExpression} from "leaflet";
 import React, {ReactElement, ReactNode, useState} from "react";
 import {ImageOverlay, Tooltip} from "react-leaflet";
 import "./Layers.css"
 import Modal from "@/app/modal/Modal";
-
 
 export function StructureLayer({children, name, image, bounds, modalDescription = undefined}:
     {children?: ReactNode, name: string, image: string, bounds: LatLngBoundsExpression, modalDescription?: ReactElement | undefined}) {

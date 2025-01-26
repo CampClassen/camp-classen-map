@@ -1,3 +1,4 @@
+'use client'
 import L, {LatLng, LatLngBoundsExpression, LatLngExpression} from "leaflet";
 import React, {useState} from "react";
 import {ImageOverlay} from "react-leaflet";

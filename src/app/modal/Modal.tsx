@@ -55,11 +55,7 @@ export default function Modal({children, title, description, handleClose}: {chil
 
     return (
         <Overlay displayExit={false} handleClose={handleClose}>
-            <div className="modal font-cachet-pro-book   [&::-webkit-scrollbar]:w-2
-  [&::-webkit-scrollbar-track]:bg-gray-100
-  [&::-webkit-scrollbar-thumb]:bg-gray-300
-  dark:[&::-webkit-scrollbar-track]:bg-neutral-700
-  dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
+            <div className="modal font-cachet-pro-book">
                 <ModalHeader title={title} handleClose={handleClose}/>
                     <Carousel setApi={setApi} className="h-full w-4/5 flex mx-auto">
                         <CarouselContent>
