@@ -17,9 +17,8 @@ export default function ClassenMap(): ReactElement {
                     [2170.590513221411, 1671.8129070567936],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Dining Hall"}
                 image="structures/dining-hall.svg"
@@ -28,9 +27,8 @@ export default function ClassenMap(): ReactElement {
                     [1979.52583586258, 1347.471809018811],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Woodshed"}
                 image="structures/woodshed.svg"
@@ -55,9 +53,8 @@ export default function ClassenMap(): ReactElement {
                     [1899.541329112143, 1930.8824049694115],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Swim Dock"}
                 image="structures/swim-dock.svg"
@@ -74,9 +71,8 @@ export default function ClassenMap(): ReactElement {
                     [1703.1656819001741, 2066.6142688758023],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Archery"}
                 image="structures/archery.svg"
@@ -85,9 +81,8 @@ export default function ClassenMap(): ReactElement {
                     [1336.8620116621712, 1374.7544886070655],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Rifle Range"}
                 image="structures/rifle-range.svg"
@@ -96,9 +91,8 @@ export default function ClassenMap(): ReactElement {
                     [1268.070180579994, 2547.8479176347114],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Vehicle Shed"}
                 image="structures/vehicle_shed.svg"
@@ -122,13 +116,14 @@ export default function ClassenMap(): ReactElement {
                     [1495.0024629056893, 1811.6841711810541],
                     [1640.1483330907076, 1873.7010429873803],
                 ]}
-                modalDescription={<>Test Description</>}
-            >
-                <img src={"main lodge/1.jpg"} alt={"Photo of the main lodge."} />
-                <img src={"main lodge/2.jpg"} alt={"Photo of the main lodge."} />
-                <img src={"main lodge/3.jpg"} alt={"Photo of the trading post."} />
-                <img src={"main lodge/4.jpg"} alt={"Photo of the trading post."} />
-            </StructureLayer>
+                modalDescription={
+                    <>
+                        <h1 className={"text-4xl text-center font-cachet-pro-bold"}>Camp Classen Main Lodge</h1>
+                    </>
+                }
+
+                photos={["main lodge/1.jpg", "main lodge/2.jpg", "main lodge/3.jpg", "main lodge/4.jpg"]}
+            />
             <StructureLayer
                 name={"Infirmary"}
                 image="structures/infirmary.svg"
@@ -137,9 +132,8 @@ export default function ClassenMap(): ReactElement {
                     [1974.6124722399031, 1489.8620977803357],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Flag"}
                 image="structures/flag.svg"
@@ -164,9 +158,8 @@ export default function ClassenMap(): ReactElement {
                     [2265.233156054153, 2242.2572008591255],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Nature Center"}
                 image="structures/nature-center.svg"
@@ -175,9 +168,8 @@ export default function ClassenMap(): ReactElement {
                     [1585.4395285698765, 924.5853566998794],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Shower House"}
                 image="structures/showerhouse.svg"
@@ -186,9 +178,8 @@ export default function ClassenMap(): ReactElement {
                     [1929.1205655499716, 1111.0248996302582],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Fishing Dock"}
                 image="structures/fishing-dock.svg"
@@ -197,9 +188,8 @@ export default function ClassenMap(): ReactElement {
                     [1510.836557834964, 2045.2368810777268],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Poorboy"}
                 image="structures/poorboy.svg"
@@ -208,9 +198,8 @@ export default function ClassenMap(): ReactElement {
                     [1878.1218104201523, 1524.3245395015617],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Anthony"}
                 image="structures/anthony.svg"
@@ -219,9 +208,8 @@ export default function ClassenMap(): ReactElement {
                     [1735.7691766654073, 1237.0949344983896],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Baird"}
                 image="structures/baird.svg"
@@ -230,9 +218,8 @@ export default function ClassenMap(): ReactElement {
                     [2047.6592488980602, 1136.3347030940718],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Bragg"}
                 image="structures/bragg.svg"
@@ -241,9 +228,8 @@ export default function ClassenMap(): ReactElement {
                     [2005.6591384968303, 1069.4550619699019],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Rose"}
                 image="structures/rose.svg"
@@ -252,9 +238,8 @@ export default function ClassenMap(): ReactElement {
                     [1990.6942492098617, 980.9886485694828],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Fain"}
                 image="structures/fain.svg"
@@ -263,9 +248,8 @@ export default function ClassenMap(): ReactElement {
                     [1999.8712909960889, 899.428784746559],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Earp"}
                 image="structures/earp.svg"
@@ -274,9 +258,8 @@ export default function ClassenMap(): ReactElement {
                     [2128.6151142825374, 883.3795277018505],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Avey"}
                 image="structures/avey.svg"
@@ -285,9 +268,8 @@ export default function ClassenMap(): ReactElement {
                     [1963.1228004641293, 837.4014386621917],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Davis"}
                 image="structures/davis.svg"
@@ -296,9 +278,8 @@ export default function ClassenMap(): ReactElement {
                     [2086.138404311295, 1016.0219645425618],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Peck"}
                 image="structures/peck.svg"
@@ -307,9 +288,8 @@ export default function ClassenMap(): ReactElement {
                     [2106.8324300978015, 1080.7045744580605],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Smith"}
                 image="structures/smith.svg"
@@ -318,9 +298,8 @@ export default function ClassenMap(): ReactElement {
                     [1895.3594543472502, 1171.6742648457569],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Laughlin"}
                 image="structures/laughlin.svg"
@@ -329,9 +308,8 @@ export default function ClassenMap(): ReactElement {
                     [1837.9151278070865, 1244.039811657759],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Everest"}
                 image="structures/everest.svg"
@@ -340,9 +318,8 @@ export default function ClassenMap(): ReactElement {
                     [1818.386807734503, 1118.8327890384803],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Sohlberg"}
                 image="structures/sohlberg.svg"
@@ -351,9 +328,8 @@ export default function ClassenMap(): ReactElement {
                     [1741.4208816862642, 1161.3358107161068],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Browne"}
                 image="structures/browne.svg"
@@ -362,9 +338,8 @@ export default function ClassenMap(): ReactElement {
                     [1743.0678914906212, 1055.6059405083452],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Buttram"}
                 image="structures/buttram.svg"
@@ -373,9 +348,8 @@ export default function ClassenMap(): ReactElement {
                     [1806.401697907255, 938.1672137347507],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Prichard"}
                 image="structures/prichard.svg"
@@ -384,9 +358,8 @@ export default function ClassenMap(): ReactElement {
                     [1689.147085220394, 872.2451588515607],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Heidbrink"}
                 image="structures/heidbrink.svg"
@@ -395,9 +368,8 @@ export default function ClassenMap(): ReactElement {
                     [1787.0026372124555, 844.2506724313376],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Ricks"}
                 image="structures/ricks.svg"
@@ -406,9 +378,8 @@ export default function ClassenMap(): ReactElement {
                     [1708.7637737710843, 794.3438593127748],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Clements"}
                 image="structures/clements.svg"
@@ -417,9 +388,8 @@ export default function ClassenMap(): ReactElement {
                     [1732.426790601643, 716.9349390573084],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Shdeed Godfrey Hayes"}
                 image="structures/sgh.svg"
@@ -428,9 +398,8 @@ export default function ClassenMap(): ReactElement {
                     [1832.1680517310301, 701.8595095414722],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <StructureLayer
                 name={"Farris"}
                 image="structures/farris.svg"
@@ -439,9 +408,8 @@ export default function ClassenMap(): ReactElement {
                     [1912.579624806626, 746.6523258686448],
                 ]}
                 modalDescription={<>Test Description</>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </StructureLayer>
+                photos={["question.png"]}
+            />
             <PhotoLayer center={[1623.666981, 1776.329968]} photo="lakeview.jpg" />
             <PhotoLayer center={[197.768033, 2096.241811]} photo="entrance.jpg" />
             <CircleLayer
@@ -449,57 +417,50 @@ export default function ClassenMap(): ReactElement {
                 center={[884.943008, 1392.852211]}
                 options={{ radius: 50 }}
                 modalDescription={<></>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </CircleLayer>
+                photos={["question.png"]}
+            />
             <CircleLayer
                 name={"Tomahawk Range"}
                 center={[491.951804, 1972.238865]}
                 options={{ radius: 65 }}
                 modalDescription={<></>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </CircleLayer>
+                photos={["question.png"]}
+            />
             <CircleLayer
                 name={"Skeet Range"}
                 center={[1378.915775, 650.093686]}
                 options={{ radius: 35 }}
                 modalDescription={<></>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </CircleLayer>
+                photos={["question.png"]}
+            />
             <CircleLayer
                 name={"Classen Falls"}
                 center={[2736.062386, 2319.584046]}
                 options={{ radius: 70 }}
                 modalDescription={<></>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </CircleLayer>
+                photos={["question.png"]}
+            />
             <CircleLayer
                 name={"Mount Vesper"}
                 center={[2342.129092, 1351.043749]}
                 options={{ radius: 60 }}
                 modalDescription={<></>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </CircleLayer>
+                photos={["question.png"]}
+            />
             <CircleLayer
                 name={"Princess Point Chapel"}
                 center={[1896.387455, 2745.554758]}
                 options={{ radius: 55 }}
                 modalDescription={<></>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </CircleLayer>
+                photos={["question.png"]}
+            />
             <CircleLayer
                 name={"Ataltl Range"}
                 center={[1157.40127, 2366.28324]}
                 options={{ radius: 40 }}
                 modalDescription={<></>}
-            >
-                <img src={"question.png"} alt={"photo"} />
-            </CircleLayer>
+                photos={["question.png"]}
+            />
         </Map>
     );
 }

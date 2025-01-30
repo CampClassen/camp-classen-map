@@ -5,8 +5,8 @@ import {ImageOverlay, Tooltip} from "react-leaflet";
 import "./Layers.css"
 import Modal from "@/app/modal/Modal";
 
-export function StructureLayer({children, name, image, bounds, modalDescription = undefined}:
-    {children?: ReactNode, name: string, image: string, bounds: LatLngBoundsExpression, modalDescription?: ReactElement | undefined}) {
+export function StructureLayer({photos, name, image, bounds, modalDescription = undefined}:
+    {photos?: string[], name: string, image: string, bounds: LatLngBoundsExpression, modalDescription?: ReactElement | undefined}) {
 
     const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -36,9 +36,7 @@ export function StructureLayer({children, name, image, bounds, modalDescription 
             </ImageOverlay>
 
             {(modalDescription != undefined && isModalOpen) &&
-                <Modal title={name} description={modalDescription} handleClose={closeModal}>
-                    {children}
-                </Modal>
+                <Modal title={name} description={modalDescription} handleClose={closeModal} photos={photos}/>
             }
         </>
     );

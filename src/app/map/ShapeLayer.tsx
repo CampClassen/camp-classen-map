@@ -5,8 +5,8 @@ import {Circle, Tooltip} from "react-leaflet";
 import "./Layers.css"
 import Modal from "@/app/modal/Modal";
 
-export function CircleLayer({children, name, center, modalDescription = undefined, options}:
-    {children?: ReactNode, name: string, center: LatLngExpression, modalDescription?: ReactElement | undefined, options?: CircleOptions}) {
+export function CircleLayer({photos, name, center, modalDescription = undefined, options}:
+    {photos?: string[], name: string, center: LatLngExpression, modalDescription?: ReactElement | undefined, options?: CircleOptions}) {
 
     const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -39,9 +39,7 @@ export function CircleLayer({children, name, center, modalDescription = undefine
             </Circle>
 
             {(modalDescription != undefined && isModalOpen) &&
-                <Modal title={name} description={modalDescription} handleClose={closeModal}>
-                    {children}
-                </Modal>
+                <Modal title={name} description={modalDescription} handleClose={closeModal} photos={photos}/>
             }
         </>
     );

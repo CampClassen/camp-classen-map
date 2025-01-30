@@ -13,6 +13,7 @@ import {Card, CardContent} from "@/components/ui/card";
 
 import './Zoom.css'
 import "./Modal.css";
+import Image from "next/image";
 
 function ModalDescription({element}: {element: ReactElement}): ReactElement {
     return (
@@ -31,7 +32,7 @@ function ModalHeader({title, handleClose}: {title: string, handleClose: () => vo
     )
 }
 
-export default function Modal({children, title, description, handleClose}: {children: ReactNode, title: string, description: ReactElement, handleClose: () => void}) {
+export default function Modal({photos, title, description, handleClose}: {photos?: string[], title: string, description: ReactElement, handleClose: () => void}) {
     const [api, setApi] = React.useState<CarouselApi>()
     const [current, setCurrent] = React.useState(0)
     const [count, setCount] = React.useState(0)
@@ -51,25 +52,23 @@ export default function Modal({children, title, description, handleClose}: {chil
     }, [api])
 
 
-    const useControls: boolean = React.Children.count(children) != 1;
+    const useControls: boolean = React.Children.count(photos) != 1;
 
     return (
         <Overlay displayExit={false} handleClose={handleClose}>
             <div className="modal font-cachet-pro-book">
                 <ModalHeader title={title} handleClose={handleClose}/>
                     <Carousel setApi={setApi} className="h-full w-4/5 flex mx-auto">
-                        <CarouselContent>
-                            {React.Children.map(children, (content: ReactNode, index: number) => (
+                        <CarouselContent className="p-1">
+                            {photos && photos.map((photo, index) => (
                                 <CarouselItem key={index}>
-                                    <div className="p-1">
-                                        <Card>
-                                            <CardContent className="p-4">
-                                                <Zoom >
-                                                    {content}
-                                                </Zoom>
-                                            </CardContent>
-                                        </Card>
-                                    </div>
+                                    <Card>
+                                        <CardContent className="p-2">
+                                            <Zoom >
+                                                <Image src={photo} alt={"Carousel Image"} width={1000} height={1000}/>
+                                            </Zoom>
+                                        </CardContent>
+                                    </Card>
                                 </CarouselItem>
                             ))}
                         </CarouselContent>

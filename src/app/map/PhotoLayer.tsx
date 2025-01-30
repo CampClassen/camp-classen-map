@@ -4,6 +4,7 @@ import React, {useState} from "react";
 import {ImageOverlay} from "react-leaflet";
 import "./Layers.css"
 import Overlay from "@/app/overlay/Overlay";
+import Image from "next/image";
 
 
 export function PhotoLayer({center, photo, scale = 15}: {center: LatLngExpression, photo: string, scale?: number}) {
@@ -26,7 +27,7 @@ export function PhotoLayer({center, photo, scale = 15}: {center: LatLngExpressio
 
             {isPhotoOpen && (
                 <Overlay displayExit={true} handleClose={() => {setIsPhotoOpen(false)}}>
-                    <img className="relative text-center max-w-[90vw] max-h-[90vh]" src={photo} alt=""/>
+                    <Image className="relative text-center max-w-[90vw] max-h-[90vh]" src={photo} alt="" width={"1080"} height={"1080"} />
                 </Overlay>
             )}
         </>
