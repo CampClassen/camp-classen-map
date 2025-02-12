@@ -12,12 +12,21 @@
   src: url('fonts/CachetPro-Book.otf');
 }
 
+.teal-text-outline {
+  -webkit-text-stroke: 0.2em #1FBDC0;
+  paint-order: stroke fill;
+}
+
 .font-cachet-pro-book {
   font-family: CachetPro-Book, Verdana, sans-serif;
 }
 
 .font-cachet-pro-bold {
   font-family: CachetPro-Bold, Verdana, sans-serif;
+}
+
+.bg-teal {
+  background: #1FBDC0;
 }
 
 
@@ -93,4 +102,21 @@ path.leaflet-interactive:focus {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* Slim width */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Invisible track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2); /* Subtle dark thumb */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4); /* Slightly darker on hover */
 }

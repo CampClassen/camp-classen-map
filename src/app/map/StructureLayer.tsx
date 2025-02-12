@@ -3,7 +3,7 @@ import {LatLngBoundsExpression} from "leaflet";
 import React, {ReactElement, ReactNode, useState} from "react";
 import {ImageOverlay, Tooltip} from "react-leaflet";
 import "./Layers.css"
-import Modal from "@/app/modal/Modal";
+import Modal from "../modal/Modal";
 
 export function StructureLayer({photos, name, image, bounds, modalDescription = undefined}:
     {photos?: string[], name: string, image: string, bounds: LatLngBoundsExpression, modalDescription?: ReactElement | undefined}) {

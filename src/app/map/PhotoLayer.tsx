@@ -27,7 +27,7 @@ export function PhotoLayer({center, photo, scale = 15}: {center: LatLngExpressio
 
             {isPhotoOpen && (
                 <Overlay displayExit={true} handleClose={() => {setIsPhotoOpen(false)}}>
-                    <Image className="relative text-center max-w-[90vw] max-h-[90vh]" src={photo} alt="" width={"1080"} height={"1080"} />
+                    <img className="w-full mx-auto max-w-[90vw] max-h-[90vh]" src={photo} alt="Photo"/>
                 </Overlay>
             )}
         </>
