@@ -8,8 +8,16 @@ import {CircleLayer} from "@/app/map/ShapeLayer";
 import TextLayer from "@/app/map/TextLayer";
 
 export default function ClassenMap(): ReactElement {
-    const shortCabin: string[] = ["cabins/short/1.jpg", "cabins/short/2.jpg", "cabins/short/3.jpg"];
-    const longCabin: string[] = ["cabins/long/1.jpg", "cabins/long/2.jpg", "cabins/long/3.jpg"];
+    const shortCabin: string[] = [
+        "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJs89Z5yvjMd18XbZTBfeSVG3JwxrFhDH5QioN",
+        "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJFhrxmpd8N9SgBhzauKMlepRfUtLnVwqYC3v7",
+        "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJgHsGQ7hleWgHGsKwlcYALVO28BIJf5E1hDma"
+    ];
+    const longCabin: string[] = [
+        "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJMSpAQ5ir9A0dWx3Ik6h2zGnsiVgPwE5jmaHq",
+        "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJfiKNGT8ErY0a1JCux5LP3DbXmNWvAcoSUjyV",
+        "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ5gp3b6umKsdXoG7tHi8IYMgJLQuxUA6BVSq0"
+    ];
 
     return (
         <Map>
@@ -22,18 +30,18 @@ export default function ClassenMap(): ReactElement {
                 ]}
                 modalDescription={<></>}
                 photos={[
-                    "activity-center/1.jpg",
-                    "activity-center/main/1.jpg",
-                    "activity-center/main/2.jpg",
-                    "activity-center/main/3.jpg",
-                    "activity-center/common/1.jpg",
-                    "activity-center/common/2.jpg",
-                    "activity-center/bunk/1.jpg",
-                    "activity-center/bunk/2.jpg",
-                    "activity-center/bunk/3.jpg",
-                    "activity-center/bathroom/1.jpg",
-                    "activity-center/bathroom/2.jpg",
-                    "activity-center/bathroom/3.jpg",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJcYBqqJapak4ILsF2rVygxRM7ZUbqEYe0mnh5",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJbXA8SVU8gcsRMqXipYZVB9D4m6fCt3rkWun7",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJXQ0tNqMv47LGowhmF2X8EqfZxpYCzciOBdNt",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJHsvTp6aQNqt2GCT3JirbYkgolSF1UxvK870Q",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJEhftIhCHAwbPdDkusgRyTp4rjZLvOMf5l8Sz",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJXSdlW2Mv47LGowhmF2X8EqfZxpYCzciOBdNt",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ40oQhgKR9YTjZtOH0wNln3euUAvkJBgcKda8",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJXo2vFWVMv47LGowhmF2X8EqfZxpYCzciOBdN",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJUSi8vm5AunTEcDlYO7sNZyQoJ65v1AdPVax0",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJPOmDJQ5UIED5OFjxXN63hYG2Sd4gJMsi9Clu",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJBfUjrVvJjgDp5HZEXUIO67qJMoYyBGTV4n2z",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJE59KIYHAwbPdDkusgRyTp4rjZLvOMf5l8Szc",
                 ]}
             />
             <StructureLayer
@@ -45,13 +53,13 @@ export default function ClassenMap(): ReactElement {
                 ]}
                 modalDescription={<></>}
                 photos={[
-                    "dining-hall/1.jpg",
-                    "dining-hall/2.jpg",
-                    "dining-hall/3.jpg",
-                    "dining-hall/4.jpg",
-                    "dining-hall/5.jpg",
-                    "dining-hall/6.jpg",
-                    "dining-hall/7.jpg",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJqjg4r48piQ2wR9gGAjsWOSu4Z1nmvf8LE7HY",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJll6ML1EfqjNBECAKxhTDrag8L9F3S0k1ZQG7",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJzlt609ZMyZ9qhnN5TCKQ1IBH8Op3dgRsJVPX",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJhlDeG4s5CmUutyPMDvekQNBOsA96TGE3afIr",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJiLEE0Foti5nkzpOdb6XDAsrgQN7fuLmT3hYJ",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJHWcpSEQNqt2GCT3JirbYkgolSF1UxvK870Qh",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJlhI3FTEfqjNBECAKxhTDrag8L9F3S0k1ZQG7",
                 ]}
             />
             <StructureLayer
@@ -79,10 +87,10 @@ export default function ClassenMap(): ReactElement {
                 ]}
                 modalDescription={<></>}
                 photos={[
-                    "waterfront/1.jpg",
-                    "waterfront/2.jpg",
-                    "waterfront/3.jpg",
-                    "waterfront/4.jpg"
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJmmRLJ4YR5Er3GSPJUiNO6QnYX7yLvf9ukWx2",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJUryndLAunTEcDlYO7sNZyQoJ65v1AdPVax0S",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ9MKZ2KexoQcJ218Ea4pbAqtVKInugLUyrBRO",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ9mnbKHexoQcJ218Ea4pbAqtVKInugLUyrBRO"
                 ]}
             />
             <StructureLayer
@@ -101,7 +109,7 @@ export default function ClassenMap(): ReactElement {
                     [1703.1656819001741, 2066.6142688758023],
                 ]}
                 modalDescription={<></>}
-                photos={["photos/lake-tower.jpg"]}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJwEm7P3fdV53xsQL2TaNUcvFeqHbW0kZnSyo8"]}
             />
             <StructureLayer
                 name={"Archery"}
@@ -112,10 +120,10 @@ export default function ClassenMap(): ReactElement {
                 ]}
                 modalDescription={<></>}
                 photos={[
-                    "archery/1.jpg",
-                    "archery/2.jpg",
-                    "archery/3.jpg",
-                    "archery/4.jpg",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJew45Gcgb5krzfEXsRVLJaF3m8YojTHq2MWhC",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJxzNvjOFUjyqzLXtZQWadIE83iNPMFwYmDuBg",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJHaP6FMQNqt2GCT3JirbYkgolSF1UxvK870Qh",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJJS678XwCVmZRL0WtYUoKbc9ATfd2qOXJgBG1",
                 ]}
             />
             <StructureLayer
@@ -127,10 +135,10 @@ export default function ClassenMap(): ReactElement {
                 ]}
                 modalDescription={<></>}
                 photos={[
-                    "riflery/1.jpg",
-                    "riflery/2.jpg",
-                    "riflery/3.jpg",
-                    "riflery/4.jpg",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJuFKR7kBPI0rXTlKU1YmRitb2og7BMvHdz5eE",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJajxBSM1k5qRci6P9VojgEwz4xKlMXb1GYuOW",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJBiF7gdJjgDp5HZEXUIO67qJMoYyBGTV4n2zh",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJQe18DhAhzdRQJNLylDU0I1m4XogbiTcGV9eE",
                 ]}
             />
             <StructureLayer
@@ -163,10 +171,10 @@ export default function ClassenMap(): ReactElement {
                 }
 
                 photos={[
-                    "main-lodge/1.jpg",
-                    "main-lodge/2.jpg",
-                    "main-lodge/3.jpg",
-                    "main-lodge/4.jpg"
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJF9l8XDd8N9SgBhzauKMlepRfUtLnVwqYC3v7",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJISxMeNXEoiKwDsgazxZh9Hl5XvejcSdMAnO3",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJtjX9CS2jPz1Uu5G97IXwpT8SgdqyxeB6bAMC",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJOwUuuycNRBGPLpbekErm5xzj1ynsfJ0HiwT8"
                 ]}
             />
             <StructureLayer
@@ -186,14 +194,6 @@ export default function ClassenMap(): ReactElement {
                 ]}
             />
             <StructureLayer
-                name={"Flag"}
-                image="structures/flag.svg"
-                bounds={[
-                    [1857.4452400302057, 1317.553534015197],
-                    [2019.4117080847875, 1374.9884517650487],
-                ]}
-            />
-            <StructureLayer
                 name={"Chapel"}
                 image="structures/chapel.svg"
                 bounds={[
@@ -201,7 +201,10 @@ export default function ClassenMap(): ReactElement {
                     [2265.233156054153, 2242.2572008591255],
                 ]}
                 modalDescription={<></>}
-                photos={["chapel/1.jpg", "chapel/2.jpg"]}
+                photos={[
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ2KKiTCEDP8qYAT5NnOMSE9LXWl36ZQD1HwKi",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJPpHex5UIED5OFjxXN63hYG2Sd4gJMsi9CluZ"
+                ]}
             />
             <StructureLayer
                 name={"Nature Center"}
@@ -212,14 +215,14 @@ export default function ClassenMap(): ReactElement {
                 ]}
                 modalDescription={<></>}
                 photos={[
-                    "nature-center/1.jpg",
-                    "nature-center/2.jpg",
-                    "nature-center/3.jpg",
-                    "nature-center/4.jpg",
-                    "nature-center/5.jpg",
-                    "nature-center/6.jpg",
-                    "nature-center/7.jpg",
-                    "nature-center/8.jpg"
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJzFYwjdvZMyZ9qhnN5TCKQ1IBH8Op3dgRsJVP",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ4qui3yKR9YTjZtOH0wNln3euUAvkJBgcKda8",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ4GJyNZKR9YTjZtOH0wNln3euUAvkJBgcKda8",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJbcXgvdU8gcsRMqXipYZVB9D4m6fCt3rkWun7",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ6yUs5g9rJxhtBDdIyOLnklX1fjNgeHA6sUuR",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJNTEeLg71DEfSQznjGP5C0iompYvyAIHr8gaJ",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJeEhCqe5gb5krzfEXsRVLJaF3m8YojTHq2MWh",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJfH7xQ98ErY0a1JCux5LP3DbXmNWvAcoSUjyV"
                 ]}
             />
             <StructureLayer
@@ -231,11 +234,11 @@ export default function ClassenMap(): ReactElement {
                 ]}
                 modalDescription={<></>}
                 photos={[
-                    "shower-house/1.jpg",
-                    "shower-house/2.jpg",
-                    "shower-house/3.jpg",
-                    "shower-house/4.jpg",
-                    "shower-house/5.jpg"
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJW1gE1VzvUr6KJCO3S547EQZ9AIgzahHpbVWy",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ0nE2QxT42dWpxOTCk3nZXHcJjgz5wMPleD0h",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ6Q0QYJ9rJxhtBDdIyOLnklX1fjNgeHA6sUuR",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJq5nyA5piQ2wR9gGAjsWOSu4Z1nmvf8LE7HYy",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJUwLPZUAunTEcDlYO7sNZyQoJ65v1AdPVax0S"
                 ]}
             />
             <StructureLayer
@@ -255,8 +258,9 @@ export default function ClassenMap(): ReactElement {
                 ]}
                 modalDescription={<></>}
                 photos={[
-                    "cabins/poorboy/1.jpg",
-                    "cabins/poorboy/2.jpg"
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJTtxehRBNPbspndG6FBkmifqezISN0v1yY9gQ",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJfsjZLt8ErY0a1JCux5LP3DbXmNWvAcoSUjyV",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJDcyiVm47DxNR5nVkurg4h6OioaA18q9fYUXH"
                 ]}
             />
             <StructureLayer
@@ -267,7 +271,7 @@ export default function ClassenMap(): ReactElement {
                     [1735.7691766654073, 1237.0949344983896],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/anthony.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJMcJK5lir9A0dWx3Ik6h2zGnsiVgPwE5jmaHq"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Baird"}
@@ -277,7 +281,7 @@ export default function ClassenMap(): ReactElement {
                     [2047.6592488980602, 1136.3347030940718],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/baird.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJELOGP8HAwbPdDkusgRyTp4rjZLvOMf5l8Szc"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Bragg"}
@@ -287,7 +291,7 @@ export default function ClassenMap(): ReactElement {
                     [2005.6591384968303, 1069.4550619699019],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/bragg.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJeEv8v2Sgb5krzfEXsRVLJaF3m8YojTHq2MWh"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Rose"}
@@ -297,7 +301,7 @@ export default function ClassenMap(): ReactElement {
                     [1990.6942492098617, 980.9886485694828],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/rose.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJFC4shKd8N9SgBhzauKMlepRfUtLnVwqYC3v7"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Fain"}
@@ -307,7 +311,7 @@ export default function ClassenMap(): ReactElement {
                     [1999.8712909960889, 899.428784746559],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/fain.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJPTGaXR5UIED5OFjxXN63hYG2Sd4gJMsi9Clu"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Earp"}
@@ -317,7 +321,7 @@ export default function ClassenMap(): ReactElement {
                     [2128.6151142825374, 883.3795277018505],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/earp.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJgH8VQCleWgHGsKwlcYALVO28BIJf5E1hDmat"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Avey"}
@@ -327,7 +331,7 @@ export default function ClassenMap(): ReactElement {
                     [1963.1228004641293, 837.4014386621917],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/avey.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJEdFcNBHAwbPdDkusgRyTp4rjZLvOMf5l8Szc"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Davis"}
@@ -337,7 +341,7 @@ export default function ClassenMap(): ReactElement {
                     [2086.138404311295, 1016.0219645425618],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/davis.jpg"].concat(longCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJG6fjMMW1MnQ5WGJKPbfAwhameR7gz2OlS86C"].concat(longCabin)}
             />
             <StructureLayer
                 name={"Peck"}
@@ -347,7 +351,7 @@ export default function ClassenMap(): ReactElement {
                     [2106.8324300978015, 1080.7045744580605],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/peck.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ5JUgB8eumKsdXoG7tHi8IYMgJLQuxUA6BVSq"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Smith"}
@@ -357,7 +361,7 @@ export default function ClassenMap(): ReactElement {
                     [1895.3594543472502, 1171.6742648457569],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/smith.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJE5eyxcHAwbPdDkusgRyTp4rjZLvOMf5l8Szc"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Laughlin"}
@@ -367,7 +371,7 @@ export default function ClassenMap(): ReactElement {
                     [1837.9151278070865, 1244.039811657759],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/laughlin.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJXoiCBVlMv47LGowhmF2X8EqfZxpYCzciOBdN"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Everest"}
@@ -377,7 +381,7 @@ export default function ClassenMap(): ReactElement {
                     [1818.386807734503, 1118.8327890384803],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/everest.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJbn5kLGU8gcsRMqXipYZVB9D4m6fCt3rkWun7"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Sohlberg"}
@@ -387,7 +391,7 @@ export default function ClassenMap(): ReactElement {
                     [1741.4208816862642, 1161.3358107161068],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/sohlberg.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJdn9KHoOq8YanlN5PeBEroct47D2jyQbVHxUA"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Browne"}
@@ -397,7 +401,7 @@ export default function ClassenMap(): ReactElement {
                     [1743.0678914906212, 1055.6059405083452],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/browne.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ4gkhhkKR9YTjZtOH0wNln3euUAvkJBgcKda8"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Buttram"}
@@ -407,7 +411,7 @@ export default function ClassenMap(): ReactElement {
                     [1806.401697907255, 938.1672137347507],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/buttram.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ47uVZoKR9YTjZtOH0wNln3euUAvkJBgcKda8"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Prichard"}
@@ -417,7 +421,7 @@ export default function ClassenMap(): ReactElement {
                     [1689.147085220394, 872.2451588515607],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/prichard.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJfbCaDQg8ErY0a1JCux5LP3DbXmNWvAcoSUjy"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Heidbrink"}
@@ -427,7 +431,7 @@ export default function ClassenMap(): ReactElement {
                     [1787.0026372124555, 844.2506724313376],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/heidbrink.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJeafz7sgb5krzfEXsRVLJaF3m8YojTHq2MWhC"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Ricks"}
@@ -437,7 +441,7 @@ export default function ClassenMap(): ReactElement {
                     [1708.7637737710843, 794.3438593127748],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/ricks.jpg"].concat(longCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ8Ur6TjbyRidWzlOoVmgPkj9Tp1Yf7rxNIvnE"].concat(longCabin)}
             />
             <StructureLayer
                 name={"Clements"}
@@ -447,7 +451,7 @@ export default function ClassenMap(): ReactElement {
                     [1732.426790601643, 716.9349390573084],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/clements.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJTfHxK2NPbspndG6FBkmifqezISN0v1yY9gQK"].concat(shortCabin)}
             />
             <StructureLayer
                 name={"Shdeed Godfrey Hayes"}
@@ -457,7 +461,7 @@ export default function ClassenMap(): ReactElement {
                     [1832.1680517310301, 701.8595095414722],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/sgh.jpg"].concat(longCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ5J8FpWOumKsdXoG7tHi8IYMgJLQuxUA6BVSq"].concat(longCabin)}
             />
             <StructureLayer
                 name={"Farris"}
@@ -467,58 +471,81 @@ export default function ClassenMap(): ReactElement {
                     [1912.579624806626, 746.6523258686448],
                 ]}
                 modalDescription={<></>}
-                photos={["cabins/farris.jpg"].concat(shortCabin)}
+                photos={["https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJFAkeGcd8N9SgBhzauKMlepRfUtLnVwqYC3v7"].concat(shortCabin)}
             />
-            <PhotoLayer center={[1623.666981, 1776.329968]} photo="photos/lake-view.jpg" />
-            <PhotoLayer center={[197.768033, 2096.241811]} photo="photos/entrance.jpg" />
-            <PhotoLayer center={[1520.7971691443847,1690.38750736851]} photo="photos/canoe.jpg" />
-            <PhotoLayer center={[2032.7742997825133,1456.068920336811]} photo="photos/ac-bridge.jpg" />
-            <PhotoLayer center={[1596.1576636844918,889.7840042335395]} photo="photos/nc-c-bridge.jpg" />
-            <PhotoLayer center={[2113.1002886053975,1401.2545065550912]} photo="photos/owls.jpg" />
-            <PhotoLayer center={[1478.0546845313136,1589.612826702765]} photo="photos/rock-range.jpg" />
-            <PhotoLayer center={[1395.7248271353194,657.0862575601491]} photo="photos/skeet.jpg" />
+            <PhotoLayer center={[1623.666981, 1776.329968]} photo="https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJUZxHthAunTEcDlYO7sNZyQoJ65v1AdPVax0S" />
+            <PhotoLayer center={[197.768033, 2096.241811]} photo="https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJRu369SgPCIFvpfzkDTS4XcogMjnWHtBd2EmO" />
+            <PhotoLayer center={[1520.7971691443847,1690.38750736851]} photo="https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJso55QzvjMd18XbZTBfeSVG3JwxrFhDH5QioN" />
+            <PhotoLayer center={[2032.7742997825133,1456.068920336811]} photo="https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJc3bXLFapak4ILsF2rVygxRM7ZUbqEYe0mnh5" />
+            <PhotoLayer center={[1596.1576636844918,889.7840042335395]} photo="https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJIpeJqCXEoiKwDsgazxZh9Hl5XvejcSdMAnO3" />
+            <PhotoLayer center={[2113.1002886053975,1401.2545065550912]} photo="https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJDjqvUl47DxNR5nVkurg4h6OioaA18q9fYUXH" />
+            <PhotoLayer center={[1478.0546845313136,1589.612826702765]} photo="https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ9KnVxjexoQcJ218Ea4pbAqtVKInugLUyrBRO" />
+            <PhotoLayer center={[1395.7248271353194,657.0862575601491]} photo="https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJgfoIiOleWgHGsKwlcYALVO28BIJf5E1hDmat" />
 
             <CircleLayer
                 name={"Kings Ridge"}
                 center={[884.943008, 1392.852211]}
                 options={{ radius: 50 }}
                 modalDescription={<></>}
-                photos={["kings-ridge/1.jpg", "kings-ridge/2.jpg", "kings-ridge/3.jpg", "kings-ridge/4.jpg"]}
+                photos={[
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJhMC1V4s5CmUutyPMDvekQNBOsA96TGE3afIr",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJWX94bPzvUr6KJCO3S547EQZ9AIgzahHpbVWy",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJsPuayu2vjMd18XbZTBfeSVG3JwxrFhDH5Qio",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ6B8S7V9rJxhtBDdIyOLnklX1fjNgeHA6sUuR"
+                ]}
             />
             <CircleLayer
                 name={"Tomahawk Range"}
                 center={[491.951804, 1972.238865]}
                 options={{ radius: 65 }}
                 modalDescription={<></>}
-                photos={["tomahawks/1.jpg", "tomahawks/2.jpg", "tomahawks/3.jpg"]}
+                photos={[
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJM0GR3Irir9A0dWx3Ik6h2zGnsiVgPwE5jmaH",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJtU3r7O2jPz1Uu5G97IXwpT8SgdqyxeB6bAMC",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJaaCWnu1k5qRci6P9VojgEwz4xKlMXb1GYuOW"
+                ]}
             />
             <CircleLayer
                 name={"Princess Point Chapel"}
                 center={[1896.387455, 2745.554758]}
                 options={{ radius: 55 }}
                 modalDescription={<></>}
-                photos={["princess-point/1.jpg", "princess-point/2.jpg", "princess-point/3.jpg"]}
+                photos={[
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJGesoXOW1MnQ5WGJKPbfAwhameR7gz2OlS86C",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJPjR3fb5UIED5OFjxXN63hYG2Sd4gJMsi9Clu",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJ7Dagq6dtTMlhvYZdLsnBtajH04cu9GRoefEk"
+                ]}
             />
             <CircleLayer
                 name={"Ataltl Range"}
                 center={[1157.40127, 2366.28324]}
                 options={{ radius: 40 }}
                 modalDescription={<></>}
-                photos={["atlatl/1.jpg"]}
+                photos={[
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJQPFUwGhAhzdRQJNLylDU0I1m4XogbiTcGV9e"
+                ]}
             />
             <CircleLayer
                 name={"Rock Climbing Wall"}
                 center={[1087.071937400049,1444.6203121896795]}
                 options={{ radius: 30 }}
                 modalDescription={<></>}
-                photos={["rock-wall/1.jpg", "rock-wall/2.jpg"]}
+                photos={[
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJNlq4RI71DEfSQznjGP5C0iompYvyAIHr8gaJ",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJeXH8mKgb5krzfEXsRVLJaF3m8YojTHq2MWhC"
+                ]}
             />
             <CircleLayer
                 name={"Activity Field"}
                 center={[1579.301161441783,1488.7265331145948]}
                 options={{ radius: 65 }}
                 modalDescription={<></>}
-                photos={["activity-field/1.jpg", "activity-field/2.jpg", "activity-field/3.jpg", "activity-field/4.jpg"]}
+                photos={[
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJDquD2J47DxNR5nVkurg4h6OioaA18q9fYUXH",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJc5qdARapak4ILsF2rVygxRM7ZUbqEYe0mnh5",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJgH8vwEOleWgHGsKwlcYALVO28BIJf5E1hDma",
+                    "https://kfy3ovuc9l.ufs.sh/f/9vjrt1exoQcJgHyj6LgleWgHGsKwlcYALVO28BIJf5E1hDma"
+                ]}
             />
         </Map>
     );
