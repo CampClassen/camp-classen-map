@@ -45,7 +45,7 @@ export default function Modal({photos, title = "", description, handleClose}: {p
                         <CarouselContent className={""}>
                             {photos && photos.map((photo, index) => (
                                 <CarouselItem key={index}>
-                                    <Image src={photo} alt={"Carousel Image"} width={6000} height={4000} quality={50}/>
+                                    <Image src={photo} alt={"Carousel Image"} width={6000} height={4000} quality={100}/>
                                     {/*<Zoom>*/}
                                     {/*</Zoom>*/}
                                 </CarouselItem>
