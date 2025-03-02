@@ -3,6 +3,7 @@ import Overlay from "@/app/overlay/Overlay";
 import {FaXmark} from "react-icons/fa6";
 import {Carousel, CarouselApi, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious} from "@/components/ui/carousel";
 import './Zoom.css'
+import Image from "next/image";
 
 export default function Modal({photos, title = "", description, handleClose}: {photos?: string[], title?: string, description: ReactElement, handleClose: () => void}) {
     const [api, setApi] = React.useState<CarouselApi>()
@@ -44,7 +45,7 @@ export default function Modal({photos, title = "", description, handleClose}: {p
                         <CarouselContent className={""}>
                             {photos && photos.map((photo, index) => (
                                 <CarouselItem key={index}>
-                                    <img src={photo} alt={"Carousel Image"} />
+                                    <Image src={photo} alt={"Carousel Image"} width={6000} height={4000} quality={50}/>
                                     {/*<Zoom>*/}
                                     {/*</Zoom>*/}
                                 </CarouselItem>
